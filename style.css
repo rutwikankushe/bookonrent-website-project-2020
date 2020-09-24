@@ -10,7 +10,7 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 header{
-	background-image: url('../images/bgweb.jpg');
+	background-image: url('bgweb.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
