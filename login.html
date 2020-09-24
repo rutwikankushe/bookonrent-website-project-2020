@@ -1,0 +1,94 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>book on rent</title>    
+    <link rel="stylesheet" type="text/css" href="login.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>    
+<body>
+<header>
+  <nav>
+    <div class="row" clearfix>
+      <img src="images/logo.png" class="logo">
+
+      <ul class="main-nav" id="check-class" >
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <a href="login.html" class="btn1 btn-nav">LOGIN</a>
+        <a href="register.html" class="btn2 btn-full">REGISTER</a>
+
+        <!-- <li><a href="#">LOGIN</a></li>
+        <li><a href="#">REGISTER</a></li> -->
+      </ul>
+      <a href="#" class="mobile-icon"  onclick="slideshow()">
+        <i class="fa fa-bars" ></i>
+
+      </a>
+      
+    </div>
+  </nav>
+  <div class="main-content">
+    <h1><span class="bigfont"> RENT BOOKS </span> <br> <span class="colorchange">ONLINE HERE</span> </h1>
+
+  </div>
+  <div class="next-content">
+  <p>
+    Through this venture we intend to make reading books<br> 
+a hassle free, cost effective and pleasurable experience.<br> 
+All you have to do is just sign up, choose a prizing<br>
+plan and order the books that you want to read. We deliver<br>
+the books to your doorstep, afordable cost. After you finish<br>
+reading, just inform us and we will deliver the next books<br> 
+and do a free pick of the previous set of books.
+  </p> </div>
+  <div class="content-three">
+    <p>
+      RENTING BOOKS SAVES YOUR<br> 
+      TIME , MONEY AND SHELF SPACE
+    </p>
+  </div>
+  <div class="login">
+  <h1 class="reder-login">READER'S LOGIN</h1>    
+    <form id="login" method="POST" action="login.php">    
+        <label><b>Email     
+        </b>    
+        </label>    
+        <input type="text" name="email" id="email" placeholder="Email">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>
+        <div class="from-log">    
+        <input type="checkbox" id="check"><span>  Always Remember me </span> </div>    
+        <br>      
+        <input type="submit" name="log" id="log" class="button log" value="LOGIN NOW">       
+        <br><br> 
+        <div class="form-rem">       
+        Forgot or reset my <a href="register.html">Password</a> </div>      
+    </form>     
+</div>    
+
+
+
+</header>    
+    
+<script type="text/javascript">
+  function slideshow(){
+    var x = document.getElementById('check-class');
+    if(x.style.display==="none"){
+      (x.style.display="block")
+    }
+    else{
+      (x.style.display="none")
+    }
+
+  }
+</script>
+  
+
+</body>    
+</html>     
